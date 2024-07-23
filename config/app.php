@@ -103,6 +103,7 @@ return [
     'providers'=>ServiceProvider::defaultProviders()->merge([
         PayMob\PayMobServiceProvider::class,
 
+
     ])->toArray(),
 
 
